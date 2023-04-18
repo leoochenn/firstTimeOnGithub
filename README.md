@@ -11,10 +11,10 @@ git clone
 git add
 
 
-1.	git init
-	create a git repository
-2.	git status
-	to see the status of the file, commit or not.
+1.	git init<br>
+	create a git repository<br>
+2.	git status<br>
+	to see the status of the file, commit or not.<br>
 3.	git add
 	add the file to github
 4.	git commit
