@@ -17,3 +17,14 @@ git add
 	to see the status of the file, commit or not.
 3.	git add
 	add the file to github
+4.	git commit
+	commit the file to github
+	you need to have a message to be able to commit file.
+	exmaple:
+		git commit -m "added README.md" -m "first time commit file"
+5.	git push
+	push the file to github.
+	you need to specify what branch you want to push to.
+	exmaple:
+		git push origin master
+
