@@ -1,4 +1,5 @@
 #	First time using github
+#	changed in branch feature/README.md
 
 This is my first time using github,
 
@@ -23,4 +24,12 @@ This is my first time using github,
 	you need to specify what branch you want to push to.
 	exmaple:
 		git push origin master
+
+
+##	6. git branch<br>
+	git branch let you see how many branch you have, and what branch are you in
+
+## 	7. git checkout
+	git checkout let you change between branches.
+	and you can use git checkout -b exampleName to create a branch with branch name exampleName
 
