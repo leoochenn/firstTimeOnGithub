@@ -6,11 +6,11 @@ Git has three main states for file in the repository:
 
 files are in their original form, not change yet.
 
-2.	** Staging Area/Index **
+2.	**Staging Area/Index**
 
 files are ready to be commit.
 
-3.	** Commit/HEAD **
+3.	**Commit/HEAD**
 
 files are committed in the Git repository, but not on the web yet, you need to * git push * it up.
 
@@ -24,21 +24,21 @@ to see the status of the file, track, redy to commitor not.
 
 -	git add
 
-git add <filename...>
+`git add <filename...>`
 
 when you do add, the file you added will be in * staging * state,that mean github is keeping track of this file, and it is redy to commit.
 
 -	git commit
 
-git commit -m "commit message"
+`git commit -m "commit message"`
 
 when you do commit, that means the files have been committed to the Git repository (not yet on the web),you have to * push * it up.
 
 -	git push
 
-git push origin master
+`git push origin master`
 
-git push -u origin master
+`git push -u origin master`
 
 this command push the file up to the web.
 
