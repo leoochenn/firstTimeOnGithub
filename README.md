@@ -35,7 +35,7 @@ when you add a file, the file you added will be in *staging state*, that mean gi
 
 `git commit -m "commit message"`
 
-when you do commit, that means the files have been committed to the Git repository (not yet on the web),you have to *push* it up.
+when you commit a file in the *stagin state*, that means the files have been committed to the local Git repository (not yet on the web),you have to *push* it up to Github.
 
 -	git push
 
