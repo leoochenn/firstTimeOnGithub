@@ -2,7 +2,7 @@
 
 Git has three main states for file in the repository:
 
-1.	** Working Directory **
+1.	**Working Directory**
 
 files are in their original form, not change yet.
 
