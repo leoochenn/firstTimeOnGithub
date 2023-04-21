@@ -29,7 +29,7 @@ to see what *status* our files are in.
 
 `git add <filename...>`
 
-when you do add, the file you added will be in *staging* state, that mean github is keeping track of this file, and it is redy to commit.
+when you add a file, the file you added will be in *staging state*, that mean git is keeping track of this file, and it is redy to commit.
 
 -	git commit
 
