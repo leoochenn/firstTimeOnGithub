@@ -14,7 +14,8 @@ files are ready to be commit.
 
 files are committed in the Git repository, but not on the web yet, you need to *git push* it up.
 
-
+<br>
+<br>
 
 -	git init
 
@@ -28,7 +29,7 @@ to see the status of the file, track, redy to commitor not.
 
 `git add <filename...>`
 
-when you do add, the file you added will be in *staging* state,that mean github is keeping track of this file, and it is redy to commit.
+when you do add, the file you added will be in *staging* state, that mean github is keeping track of this file, and it is redy to commit.
 
 -	git commit
 
