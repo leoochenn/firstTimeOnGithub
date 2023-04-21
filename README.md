@@ -36,6 +36,8 @@ when you add a file, the file you added will be in *staging state*, that mean gi
 
 when you commit a file in the *stagin state*, that means the files have been committed to the local Git repository (not yet on the web),you have to *push* it up to Github.
 
+-m stand for message.
+
 -	git push
 
 `git push origin master`
@@ -43,6 +45,8 @@ when you commit a file in the *stagin state*, that means the files have been com
 `git push -u origin master`
 
 this command push the file up to the web.
+
+-u stand for set upstream, after the first time you type the command with -u flage, you can type `git push` to push the file to branch master without specify it (because you had set the upstream).
 
 -	git branch
 
