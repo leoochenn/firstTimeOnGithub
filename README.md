@@ -16,6 +16,7 @@ files are committed in the Git repository, but not on the web yet, you need to *
 
 <br>
 <br>
+-----------------------
 
 -	git init
 
