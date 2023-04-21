@@ -21,9 +21,8 @@ files are committed in the Git repository, but not on the web yet, you need to *
 
 create a git repository.
 
--	git status
-
-to see the status of the file, track, redy to commitor not.
+-	git status<br>
+to see what *status* our files are in.
 
 -	git add
 
