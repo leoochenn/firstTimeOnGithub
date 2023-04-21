@@ -14,9 +14,7 @@ files are ready to be commit.
 
 files are committed in the Git repository, but not on the web yet, you need to *git push* it up.
 
-<br>
-<br>
------------------------
+---
 
 -	git init
 
