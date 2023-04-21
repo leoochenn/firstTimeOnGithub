@@ -1,35 +1,56 @@
-#	First time using github
-#	changed in branch feature/README.md
+#	First time on Github
 
-This is my first time using github,
+Git has three main states for file in the repository:
+
+1.	** Working Directory **
+
+files are in their original form, not change yet.
+
+2.	** Staging Area/Index **
+
+files are ready to be commit.
+
+3.	** Commit/HEAD **
+
+files are committed in the Git repository, but not on the web yet, you need to * git push * it up.
+
+-	git init
+
+create a git repository.
+
+-	git status
+
+to see the status of the file, track, redy to commitor not.
+
+-	git add
+
+git add <filename...>
+
+when you do add, the file you added will be in * staging * state,that mean github is keeping track of this file, and it is redy to commit.
+
+-	git commit
+
+git commit -m "commit message"
+
+when you do commit, that means the files have been committed to the Git repository (not yet on the web),you have to * push * it up.
+
+-	git push
+
+git push origin master
+
+git push -u origin master
+
+this command push the file up to the web.
+
+-	git branch
+
+`git branch` let you see it what branch are you in.
+
+`git branch -b brancdName` let you create a new branch.
+
+-	git switch 
+
+`git switch branchName` let you switch between branches.
 
 
-##	1.	git init<br>
-	create a git repository
-
-##	2.	git status<br>
-	to see the status of the file, commit or not.
-
-##	3.	git add<br>
-	add the file to github
-
-##	4.	git commit<br>
-	commit the file to github
-	you need to have a message to be able to commit file.
-	exmaple:
-		git commit -m "added README.md" -m "first time commit file"
-
-##	5.	git push<br>
-	push the file to github.
-	you need to specify what branch you want to push to.
-	exmaple:
-		git push origin master
-
-
-##	6. git branch<br>
-	git branch let you see how many branch you have, and what branch are you in
-
-## 	7. git checkout
-	git checkout let you change between branches.
-	and you can use git checkout -b exampleName to create a branch with branch name exampleName
 
