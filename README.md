@@ -66,6 +66,8 @@ this command push the file up to the web.
 
 `git merge mergeBranchName` let you merge the *mergeBranchName* to you current working branch.
 
+---
+
 ### git submodule
 
 perent repo contain some *submodule*, and when I `git clone` the perent repo to my local, I want those submodule also, fallow these step to make sure the submodule is also cloned.
