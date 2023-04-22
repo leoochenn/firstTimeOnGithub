@@ -52,11 +52,19 @@ this command push the file up to the web.
 
 `git branch` let you see it what branch are you in.
 
-`git branch -b brancdName` let you create a new branch.
+`git branch brancdName` let you create a new branch.
 
 -	git switch 
 
 `git switch branchName` let you switch between branches.
+
+- git pull
+
+`git pull origin branchName` let you pull the changes form the *branchName* to you current working branch.
+
+- git merge
+
+`git merge mergeBranchName` let you merge the *mergeBranchName* to you current working branch.
 
 
 
