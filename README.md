@@ -66,5 +66,11 @@ this command push the file up to the web.
 
 `git merge mergeBranchName` let you merge the *mergeBranchName* to you current working branch.
 
+### git submodule
 
+perent repo contain some *submodule*, and when I `git clone` the perent repo to my local, I want those submodule also, fallow these step to make sure the submodule is also cloned.
 
+1.  git submodule init: initial the submodule.
+2.  git submodule updata: this command will clone the submodule to local.
+
+Note that when you make changes in submodule, you need to *add, commit, and push* the file in submodule directory, **and** you need to *add, commit, and push* the changes of the submodule in the perent working directory.
